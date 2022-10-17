@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">
+சுரக்ஷா</string>
+
+    <string name="firebase_path" translatable="false">labourshelter</string>
+    <string name="firebase_email" translatable="false">abc@gmail.com</string>
+    <string name="firebase_password" translatable="false">654321</string>
+
+    <string name="action_sign_in_short">பதிவு</string>
+    <string name="email">மின்னஞ்சல்</string>
+    <string name="minimum_password">
+கடவுச்சொல் மிகக் குறைவு, குறைந்தபட்சம் 6 எழுத்துக்களை உள்ளிடவும்!</string>
+    <string name="auth_failed">அங்கீகாரம் தோல்வியுற்றது, உங்கள் மின்னஞ்சல் மற்றும் கடவுச்சொல்லை சரிபார்க்கவும் அல்லது பதிவுபெறவும்</string>
+    <string name="change_email">
+மின்னஞ்சலை மாற்று</string>
+    <string name="change_password">
+கடவுச்சொல்லை மாற்று</string>
+    <string name="send_password_reset_email">
+கடவுச்சொல் மீட்டமைப்பு மின்னஞ்சலை அனுப்பவும்</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">
+உள்நுழைக</string>
+    <string name="hint_email">
+மின்னஞ்சல்</string>
+    <string name="hint_mobile">தொலைபேசி எண்.</string>
+    <string name="hint_otp">enter OTP</string>
+    <string name="hint_password">கடவுச்சொல்</string>
+    <string name="hint_name">
+முழு பெயர்</string>
+    <string name="btn_login">
+உள்நுழைய</string>
+    <string name="btn_link_to_register">
+உறுப்பினர் இல்லையா? இப்போது பதிவு செய்யுங்கள்!</string>
+    <string name="btn_link_to_login">
+ஏற்கனவே பதிவு செய்யப்பட்டது. என்னை உள்நுழைக!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">உங்கள் கடவுச்சொல்லை மறந்து விட்டீர்களா </string>
+    <string name="btn_reset_password">
+கடவுச்சொல்லை மீட்டமைக்க</string>
+    <string name="btn_back"><![CDATA[<<
+மீண்டும்]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">
+வெளியேறு</string>
+    <string name="lbl_forgot_password">
+கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+    <string name="forgot_password_msg">உங்களுக்கு கடவுச்சொல் மீட்டமைப்பு வழிமுறைகளை அனுப்ப உங்கள் பதிவு செய்யப்பட்ட மின்னஞ்சல் ஐடி தேவை.</string>
+    <string name="note"> NOTE : driver location is shown only when the driver is in online. </string>
+    <string name="QUOT">“
+பொறுமை, விழிப்புணர்வு, தைரியம் மற்றும் இரக்கத்தின் மூலம் மனித துன்பங்களைத் தடுப்பதே மிகப்பெரிய இரக்கமாகும்.”</string>
+    <string name="home_second">Home Second</string>
+    <string name="welcome">
+சுரக்ஷாவுக்கு வரவேற்கிறோம் !</string>
+    <string name="pm_funds">
+பிரதமர் நிதி</string>
+    <string name="do_s_don_ts">
+செய்ய வேண்டும் மற்றும் செய்ய வேண்டாம்</string>
+    <string name="statistics">
+புள்ளிவிவரம்</string>
+    <string name="q_a">
+கேள்வி பதில்</string>
+    <string name="symptoms">அறிகுறிகள்</string>
+    <string name="labour_shelter">
+தொழிலாளர் தங்குமிடம்</string>
+    <string name="cases_near_you">
+உங்களுக்கு அருகிலுள்ள வழக்குகள்</string>
+    <string name="hospitals">மருத்துவமனைகள்</string>
+    <string name="covid_19_status_in_india">
+கோவிட் -19 நிலை இந்தியாவில்</string>
+    <string name="refresh">...</string>
+    <string name="comfirmed">உறுதி</string>
+    <string name="active">செயலில்</string>
+    <string name="recovered">மீட்டெடுக்கப்பட்டது</string>
+    <string name="deaths">
+உயிரிழப்புகள்</string>
+    <string name="home">
+வீடு</string>
+    <string name="online_learning">ஆன்லைன் கற்றல்</string>
+    <string name="counselling">
+ஆலோசனை</string>
+    <string name="emergency_tollfree">
+அவசர டோல்ஃப்ரீ</string>
+    <string name="volunteers_near_you">
+உங்களுக்கு அருகிலுள்ள தொண்டர்கள்</string>
+    <string name="save_our_soul">
+எங்கள் ஆன்மாவை காப்பாற்றுங்கள்</string>
+    <string name="contacts_us">
+எங்களை தொடர்பு கொள்ள</string>
+    <string name="migrant_workers">புலம் பெயர்ந்த தொழிலாளர்கள்</string>
+    <string name="free_grocery_outlets">
+இலவச மளிகை கடைகள்</string>
+    <string name="volunteer_registration">
+தன்னார்வ பதிவு</string>
+    <string name="drm">
+பேரிடர் மேலாண்மை</string>
+    <string name="message">
+செய்திகள்</string>
+    <string name="covid_19_state">
+கோவிட் -19 ஸ்டேட்டஸ் ஸ்டேட் வைஸ்</string>
+    <string name="notenearby">
+இடங்கள் 5 கி.மீ சுற்றளவில் காட்டப்பட்டுள்ளன</string>
+    <string name="profile">
+சுயவிவரம்</string>
+    <string name="language">மொழி</string>
+    <string name="logout">
+வெளியேறு</string>
+    <string name="full_name">
+
+முழு பெயர்</string>
+    <string name="aadhar_no">
+ஆதார் எண்</string>
+    <string name="phone_no">
+
+தொலைபேசி எண்</string>
+    <string name="address">
+முகவரி</string>
+    <string name="msg">
+COVID19 க்கு எதிரான எங்கள் போராட்டத்தில் ஸ்ராக்ஷா ஒரு முக்கியமான படியாகும். தொழில்நுட்பத்தை மேம்படுத்துவதன் மூலம், இது முக்கியமான தகவல்களை வழங்குகிறது</string>
+    <string name="hotel">
+ஹோட்டல் மற்றும் விருந்தோம்பலுக்கான நிலையான செயல்பாட்டு நடைமுறை</string>
+    <string name="reg">
+மத இடத்திற்கான நிலையான செயல்பாட்டு நடைமுறை</string>
+    <string name="rest">
+உணவகங்களுக்கான நிலையான செயல்பாட்டு நடைமுறை</string>
+    <string name="office">அலுவலகத்திற்கான நிலையான செயல்பாட்டு நடைமுறை</string>
+    <string name="air">
+விமான பயணிகளுக்கான நிலையான செயல்பாட்டு நடைமுறை</string>
+    <string name="team_suraksha">அணி சுரக்ஷா</string>
+    <string name="alertcall">
+நீங்கள் அவசரநிலைக்கு அழைக்க விரும்புகிறீர்களா?</string>
+    <string name="yes">
+ஆம்</string>
+    <string name="no">இல்லை</string>
+    <string name="exit">
+நீங்கள் நிச்சயமாக வெளியேற விரும்பினீர்களா?</string>
+    <string name="health_assessment">
+சுகாதார மதிப்பீடு</string>
+    <string name="first_responders">முதல் பதிலளிப்பவர்கள்</string>
+    <string name="msme">
+எம்.எஸ்.எம்.இ.</string>
+    <string name="a">Hi \nPlease give information about your \n current health condition</string>
+    <string name="b">a) Cough\nb) Fever\nc) Difficulty\nd) loss of senses of smell and taste \ne) None of above</string>
+    <string name="c">How you ever had any of the following</string>
+    <string name="d">a) Diabetes\nb)Hypertension\nc) Lung disease\nd) Heart Disease\ne) Kidney Disorder\nf) None of above</string>
+    <string name="e">Which of the following applies to you</string>
+    <string name="f">a) Traveled internationally in the last \n14 days\nb) Recently interacted orr lived or currently lived\nwith someone who has tested positive\nc) Am a healthcare worker\nd) None of above</string>
+    <string name="g">Thank You for assessment\nYour information will validate\n an reach you</string>
+    <string name="type_a_message">ஒரு செய்தியைத் தட்டச்சு செய்க …</string>
+    <string name="health_care">
+சுகாதாரப் பாதுகாப்பு</string>
+    <string name="fire_stations">
+தீயணைப்பு நிலையங்கள்</string>
+    <string name="ambulance">
+மருத்துவ அவசர ஊர்தி</string>
+    <string name="medicals_stores">
+மருத்துவ கடைகள்</string>
+    <string name="labs_results"><![CDATA[ஆய்வகங்கள் & முடிவுகள்]]></string>
+    <string name="police_station">
+காவல் நிலையம்</string>
+    <string name="alertcallpolice">
+நீங்கள் நிச்சயமாக காவல் நிலையத்தை அழைக்க விரும்பினீர்களா?</string>
+    <string name="alertcallfire">
+நீங்கள் நிச்சயமாக தீயணைப்பு நிலையத்தை அழைக்க விரும்பினீர்களா?</string>
+    <string name="alertcallamb">
+நீங்கள் நிச்சயமாக ஆம்புலன்ஸ் அழைக்க விரும்பினீர்களா?</string>
+</resources>

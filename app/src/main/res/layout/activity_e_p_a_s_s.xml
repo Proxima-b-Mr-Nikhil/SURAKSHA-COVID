@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#96E5E7F1"
+    tools:context=".ePASS">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:indeterminate="true"
+            android:max="100"
+            android:layout_marginTop="-6dp" />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+           android:layout_marginTop="20dp"
+            android:background="@mipmap/ic_covidlogo_round"
+            android:layout_height="50dp">
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/quantum_black_100"
+            android:text="COVID-19 ePass Portal">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="0.8dp"
+            android:background="@color/GRAY" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#96E5E7F1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardMaxElevation="3dp"
+                app:contentPadding="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="PERSONAL INFORMATION"
+                        android:textColor="@color/quantum_black_100"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/GRAY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Select Reason"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/reason"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg">
+
+                    </Spinner>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Name of Vechicle owner"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/owner"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Mobile No."
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/ownerphone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:maxEms="10"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:inputType="phone"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Email of Vechicle owner"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/owneremail"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Driver Details"
+                        android:textColor="@color/quantum_black_100"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/GRAY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Name of the Driver"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/driver"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Mobile No."
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/driverphone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:maxEms="10"
+                        android:background="@drawable/edittextbg"
+                        android:inputType="phone"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Vehicle Details"
+                        android:textColor="@color/quantum_black_100"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/GRAY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Type"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/type"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg">
+
+                    </Spinner>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Vehicle Registration No."
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/vehiclereg"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Seating Capacity"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/vehiclecap"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:inputType="number"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Travel Details"
+                        android:textColor="@color/quantum_black_100"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/GRAY" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Planed Date of Journey"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/journeydate"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="DD/MM/YYYY"
+                        android:inputType="date"
+                        android:focusable="false"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+
+                        android:text="Time of departure"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/journeytime"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="00:00"
+                        android:inputType="time"
+                        android:focusable="false"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="From Address"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/journeyfrom"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Destination"
+                        android:textColor="@color/quantum_bluegrey800"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+
+                        android:id="@+id/journeyto"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Passengers Details"
+                        android:textColor="@color/quantum_black_100"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/GRAY" />
+
+
+                    <EditText
+
+                        android:id="@+id/passengers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:hint="Names"
+                        android:minHeight="40dp"
+                        android:maxLines="6"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry">
+
+                    </EditText>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Important Note : Carrying Govt.recognized ID proof during travel is mandatory for all passengers"
+                        android:textColor="@color/quantum_vanillared500"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="I declare that the information provided by me is accurate and to the best of my knowledge.I agree to abide by the grovernment guidelines on maintaining social distancing and COVID-19 related norm." />
+
+                    <Button
+                        android:id="@+id/submit"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/quantum_yellow"
+                        android:text="Submit"
+                        android:textStyle="normal">
+
+                    </Button>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

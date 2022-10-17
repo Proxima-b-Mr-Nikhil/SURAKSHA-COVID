@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nikhilece.ad_suraksha">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_covidlogo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_covidlogo"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Healthassess">
+
+        </activity>
+        <activity android:name=".pdf" />
+        <activity android:name=".profile" />
+        <activity android:name=".MessagesActivity" />
+        <activity android:name=".nearbycases" />
+        <activity android:name=".checkstatus" />
+        <activity android:name=".grocery" />
+        <activity android:name=".sos" />
+        <activity android:name=".transitworkers" />
+        <activity android:name=".onler" />
+        <activity android:name=".volrequest" />
+        <activity android:name=".hospital" />
+        <activity android:name=".youVi" />
+        <activity android:name=".pmnrf" />
+        <activity android:name=".dosdonts" />
+        <activity android:name=".faq" />
+        <activity android:name=".volreg" />
+        <activity android:name=".sympdf" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCzlEbsAl6ourRpl9ME1Ll2G2scb0sNfik" />
+
+        <activity android:name=".forgotpassword" />
+        <activity android:name=".count" />
+        <activity android:name=".login" />
+        <activity android:name=".payment" />
+        <activity android:name=".mapsmarker" />
+        <activity
+            android:name=".splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".manipur" />
+        <activity android:name=".ePASS" />
+        <activity android:name=".register" />
+        <activity android:name=".ImagesActivity" />
+        <activity android:name=".home" />
+    </application>
+
+</manifest>

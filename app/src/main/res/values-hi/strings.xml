@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">सुरक्षा</string>
+
+    <string name="firebase_path" translatable="false">labourshelter
+</string>
+    <string name="firebase_email" translatable="false">abc@gmail.com</string>
+    <string name="firebase_password" translatable="false">654321</string>
+
+
+    <string name="action_sign_in_short">रजिस्टर करें</string>
+    <string name="email">ईमेल</string>
+    <string name="minimum_password">पासवर्ड बहुत छोटा है,न्यूनतम 6 वर्ण</string>
+    <string name="auth_failed">
+प्रमाणीकरण विफल हो गया,अपना ईमेल और पासवर्ड जांचें</string>
+    <string name="change_email">ईमेल बदलना चाहते हैं?</string>
+    <string name="change_password">पासवर्ड बदलना चाहते हैं?</string>
+    <string name="send_password_reset_email">पासवर्ड रीसेट ईमेल चाहते हैं?</string>
+    <string name="remove_user">अपना खाता हटाना चाहते हैं?</string>
+    <string name="new_pass">नया पासवर्ड</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">साइन इन करें</string>
+    <string name="hint_email">ईमेल</string>
+    <string name="hint_mobile">फ़ोन नंबर</string>
+    <string name="hint_otp">ओटीपी दर्ज करें</string>
+    <string name="hint_password">पासवर्ड</string>
+    <string name="hint_name">पूरा नाम</string>
+    <string name="btn_login">लॉग इन करें</string>
+    <string name="btn_link_to_register">क्या आप सदस्य नहीं हैं? अब पंजीकृत हो जाओ</string>
+    <string name="btn_link_to_login">पहले से पंजीकृत.यहां लॉगिन करें!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">क्या आप पासवर्ड भूल गए </string>
+    <string name="btn_reset_password">पासवर्ड रीसेट करें</string>
+    <string name="btn_back"><![CDATA[<< वापस]]></string>
+    <string name="hint_new_email">नई ईमेल</string>
+    <string name="btn_change">बदलना</string>
+    <string name="btn_send">भेजने</string>
+    <string name="btn_remove">हटाना</string>
+    <string name="btn_sign_out">प्रस्थान करें</string>
+    <string name="lbl_forgot_password">पासवर्ड भूल गए</string>
+    <string name="forgot_password_msg">हमें आपको पासवर्ड रीसेट निर्देश भेजने के लिए बस आपके पंजीकृत ईमेल आईडी की आवश्यकता है.</string>
+    <string name="note">
+ध्यान दें : ड्राइवर का स्थान केवल तभी दिखाया जाता है जब ड्राइवर ऑनलाइन हो. </string>
+    <string name="QUOT">“सबसे बड़ी करुणा धैर्य, सतर्कता, साहस और दया के माध्यम से मानव पीड़ा की रोकथाम है.”</string>
+    <string name="home_second">Home Second</string>
+    <string name="welcome">सुरक्षा में आपका स्वागत है!</string>
+    <string name="pm_funds">प्रधान मंत्री निधि</string>
+    <string name="do_s_don_ts">क्या करें और क्या नहीं</string>
+    <string name="statistics">सांख्यिकी</string>
+    <string name="q_a">
+क्यू एंड ए</string>
+    <string name="symptoms">लक्षण</string>
+    <string name="labour_shelter">श्रम आश्रय</string>
+    <string name="cases_near_you">आपके पास के मामले</string>
+    <string name="hospitals">अस्पताल</string>
+    <string name="covid_19_status_in_india">भारत में कोविड-19 का दर्जा</string>
+    <string name="refresh">...</string>
+    <string name="comfirmed">की पुष्टि</string>
+    <string name="active">सक्रिय मामले</string>
+    <string name="recovered">बरामद मामले</string>
+    <string name="deaths">स्वर्गवासी</string>
+    <string name="home">मुख्य पृष्ठ</string>
+    <string name="online_learning">ऑनलाइन सीखें</string>
+    <string name="counselling">परामर्श</string>
+    <string name="emergency_tollfree">आपातकालीन टोलफ्री</string>
+    <string name="volunteers_near_you">आप के पास स्वयंसेवक</string>
+    <string name="save_our_soul">हमारी जान बचाओ</string>
+    <string name="contacts_us">संपर्क करें</string>
+    <string name="migrant_workers">प्रवासी कामगार</string>
+    <string name="free_grocery_outlets">मुफ्त किराने की दुकानों</string>
+    <string name="volunteer_registration">स्वयंसेवक पंजीकरण</string>
+    <string name="drm">आपदा प्रबंधन</string>
+    <string name="message">संदेशों</string>
+    <string name="covid_19_state">कोविद-19 मामले राज्यवार</string>
+    <string name="notenearby">स्थानों को 5 किलोमीटर के दायरे में दिखाया गया है</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="language">भाषाओं</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="full_name">नाम</string>
+    <string name="aadhar_no">आधार संख्या.</string>
+    <string name="phone_no">फ़ोन नंबर.</string>
+    <string name="address">पता</string>
+    <string name="msg">सुरक्षा के खिलाफ हमारी लड़ाई में एक महत्वपूर्ण कदम है। लेकिन प्रौद्योगिकी का लाभ उठाते हुए, यह महत्वपूर्ण जानकारी प्रदान करता है। अधिक से अधिक लोग इसका उपयोग करते हैं, यह प्रभावी होगा।.</string>
+    <string name="hotel">
+होटल और आतिथ्य के लिए मानक संचालन प्रक्रिया</string>
+    <string name="reg">
+धार्मिक स्थल के लिए मानक संचालन प्रक्रिया</string>
+    <string name="rest">
+रेस्तरां के लिए मानक संचालन प्रक्रिया</string>
+    <string name="office">कार्यालय के लिए मानक संचालन प्रक्रिया</string>
+    <string name="air">
+वायु यात्रियों के लिए मानक संचालन प्रक्रिया</string>
+    <string name="team_suraksha">
+टीम सूरक्षा</string>
+    <string name="alertcall">
+क्या आप वाकई आपातकालीन कॉल करना चाहते हैं?</string>
+    <string name="yes">
+हाँ</string>
+    <string name="no">
+नहीं</string>
+    <string name="exit">
+क्या आप निसंदेह बाहर निकलना चाहते हैं ?</string>
+    <string name="health_assessment">
+स्वास्थ्य की जांच करना</string>
+    <string name="first_responders">
+प्रथम प्रतिक्रियाकर्ता</string>
+    <string name="msme">
+एमएसएमई</string>
+    <string name="a">Hi \nPlease give information about your \n current health condition</string>
+    <string name="b">a) Cough\nb) Fever\nc) Difficulty\nd) loss of senses of smell and taste \ne) None of above</string>
+    <string name="c">How you ever had any of the following</string>
+    <string name="d">a) Diabetes\nb)Hypertension\nc) Lung disease\nd) Heart Disease\ne) Kidney Disorder\nf) None of above</string>
+    <string name="e">Which of the following applies to you</string>
+    <string name="f">a) Traveled internationally in the last \n14 days\nb) Recently interacted orr lived or currently lived\nwith someone who has tested positive\nc) Am a healthcare worker\nd) None of above</string>
+    <string name="g">Thank You for assessment\nYour information will validate\n an reach you</string>
+    <string name="type_a_message">
+एक संदेश लिखें…</string>
+    <string name="health_care">
+स्वास्थ्य देखभाल</string>
+    <string name="fire_stations">
+फायर स्टेशन</string>
+    <string name="ambulance">
+रोगी वाहन</string>
+    <string name="medicals_stores">
+मेडिकल स्टोर</string>
+    <string name="labs_results"><![CDATA[
+लैब्स &
+परिणाम]]></string>
+    <string name="police_station">पुलिस स्टेशन</string>
+    <string name="alertcallpolice">क्या आप वाकई थाने बुलाना चाहते हैं?</string>
+    <string name="alertcallfire">
+क्या आप वाकई फायर स्टेशन को कॉल करना चाहते हैं?</string>
+    <string name="alertcallamb">
+क्या आप वाकई एम्बुलेंस को कॉल करना चाहते हैं?</string>
+
+</resources>

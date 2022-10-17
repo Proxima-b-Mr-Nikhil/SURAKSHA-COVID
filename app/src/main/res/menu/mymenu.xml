@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+    <item
+        android:title="lng"
+        android:id="@+id/lng"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_g_translate_black_24dp"
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/logout"
+
+        android:title="@string/logout" />
+</menu>
